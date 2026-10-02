@@ -1,0 +1,16 @@
+{
+  "name": "@novacode-ai/ui",
+  "version": "1.0.0",
+  "description": "The responsive terminal UI and chatbox for Nova Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-highlight": "^2.1.11",
+    "ora": "^9.4.1"
+  }
+}
